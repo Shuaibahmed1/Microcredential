@@ -88,20 +88,22 @@
 
 
 
-.cite1 {
+
+.quote1 {
     position: absolute;
     opacity: 3;
     top: 5%;
     left: 66%;
-    right: 10%;
+    right: 9%;
     text-align: left;
     padding: 1em;
     font-size: 8px;
     color: yellow;
+    width: 23%;
   
 }
 
-.cite2 {
+.quote2 {
     position: absolute;
     opacity: 3;
     top: 20%;
@@ -111,6 +113,7 @@
     padding: 1em;
     font-size: 8px;
     color: yellow;
+    width: 25%;
   
 }
 
@@ -127,7 +130,7 @@
 
 }
 
-.cite3 {
+.quote3 {
     position: absolute;
     opacity: 3;
     top: 70%;
@@ -137,5 +140,6 @@
     padding: 1em;
     font-size: 8px;
     color: yellow;
+    width: 25%;
 
 }
