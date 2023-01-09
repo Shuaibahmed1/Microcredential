@@ -1,0 +1,165 @@
+*{box-sizing: border-box;}
+.name {
+    background-color: chartreuse;
+}
+
+.sea {
+    width: 500px;
+}
+.fog{width: 60%;}
+
+/* section for landscape */
+.container{background-color: papayawhip;
+    padding-top: 2em;
+    padding-bottom: 2em;    
+}
+
+.title {
+    border: solid 5px;
+    text-align: center;
+    background-color: beige;
+    padding: 1em; 
+    width: 80%;
+    margin: auto;
+    box-shadow: 10px 10px 5px gray;   
+}
+
+.image1, .image2, .image3, .image4{width: 45%;}
+.image1{border-radius: 30px; margin-right: 5%;}
+.image2{border-radius: 50%;}
+.image3{border: ridge 10px brown; padding: 1em;}
+.image4{box-shadow: 0px 0px 5px 10px red; margin-left:5% ;}
+.QCCLink {
+    background-color: aquamarine;
+    color: darkblue;
+    display: block;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-size: 2em;
+    padding: 1em;
+    margin-top: 2em;
+    border-radius: 10px;
+}
+
+.QCCLink:hover{
+    background-color: chartreuse;
+    color: black;
+    box-shadow: 0px 0px 20px 5px darkgray ;
+}
+
+.link {
+    text-decoration: none;
+    background-color: chartreuse;
+    display: block;
+    text-align: center;
+    padding: 1em;
+    width: 50%;
+    color: blueviolet;
+}
+
+.vertical{list-style-type: none;}
+.link:hover{
+    background-color: crimson;
+    color: whitesmoke;
+    border: solid 1px;
+}
+.link2{
+    color: red;
+    display: inline-block;
+    padding: 1em;
+    width: 33%;
+    text-align: center;                               
+}
+.horizontal{
+    background-color: aquamarine;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.link2:hover{
+    background-color: blue;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* Positions */
+
+.pos{
+    border: ridge 5px greenyellow;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.position_img{
+    width: 100%;
+    display: block;
+} 
+
+.paragraph{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    right: 10%;
+    background-color:rgb(255, 0, 0);
+    text-align: center;
+    padding: 1em;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.sticky_h1 {
+    background-color: greenyellow;
+    padding: 1em;
+    text-align: center;
+    position: sticky;
+    bottom: 0px;
+}
+.zcontainer{
+    position: relative;
+    border: outset 10px tomato;
+    display: flex;
+    height: 500px;
+    width: 50%;
+}
+
+.sunset{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+.sea2{
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    z-index: 1;
+}
+
+.zparagraph{
+    font-size: 1.5em;
+    position: absolute;
+    z-index: 2;
+}
+
+.blur1, .blur2, .blur3, .blur4, .sepia1, .sepia2, .sepia3 ,.sepia4, .invert1, .invert2, .invert3, .invert4{width: 30%; margin-left: 2%;}
+
+.blur1{filter: blur(1px);}
+.blur2{filter: blur(10px);}
+.blur3{filter: blur(20px);} 
+
+.invert1{filter: invert(20%);}
+.invert2{filter: invert(60%);}
+.invert3{filter: invert(100%);}
+
+.sepia1 {
+    filter: sepia(100px);
+    filter: sepia(200px);
+    filter: sepia(300px);
+}
+
+
+
+
+
